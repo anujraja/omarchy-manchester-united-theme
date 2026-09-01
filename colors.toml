@@ -1,0 +1,35 @@
+mode = "dark"
+
+# 2026/27 kits: home red / white / black  +  away royal blue / red / white
+accent = "#dc1f26"
+selection = "#152445"
+muted = "#3e4f6e"
+
+background = "#0b1220"
+dark_background = "#070d18"
+darker_background = "#050910"
+lighter_background = "#16233a"
+
+foreground = "#e9eef6"
+dark_foreground = "#6d7c96"
+light_foreground = "#c7d2e3"
+bright_foreground = "#f7f9fc"
+
+red = "#dc1f26"
+yellow = "#e8c36a"
+orange = "#e24a3a"
+green = "#3d8f5a"
+cyan = "#5b8fd4"
+blue = "#2f6ad6"
+magenta = "#b31d3c"
+brown = "#4a2430"
+
+bright_red = "#ff4a4a"
+bright_yellow = "#f0d48a"
+bright_green = "#55b072"
+bright_cyan = "#7eabee"
+bright_blue = "#5b8ee8"
+bright_magenta = "#d43d5c"
+
+hyprland_active_border = "#dc1f26 #0845ba 45deg"
+hyprland_inactive_border = "rgba(21,36,69,0.70)"
