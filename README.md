@@ -1,16 +1,34 @@
 # Manchester United — Omarchy theme
 
-Live shots from this machine: empty desktop, then a new empty window on the 2026/27 home-red / away-blue palette.
+Live screenshots from this machine, including a new empty window and the usual Omarchy pages on the 2026/27 home-red / away-blue palette.
+
+## Desktop
 
 ![Empty desktop — Old Trafford aerial](docs/screenshots/desktop.jpg)
 
-![Empty window on Old Trafford](docs/screenshots/empty-window.jpg)
+![Empty window](docs/screenshots/empty-window.jpg)
 
-![Empty window — Theatre of Dreams](docs/screenshots/theatre-of-dreams.jpg)
+![Salford Quays night](docs/screenshots/salford-quays.jpg)
 
-![Empty window — Stretford End](docs/screenshots/stretford-end.jpg)
+## Pages
 
-![Empty desktop — Salford Quays night](docs/screenshots/salford-quays.jpg)
+![About](docs/screenshots/about.jpg)
+
+![Files](docs/screenshots/files.jpg)
+
+![Menu](docs/screenshots/menu.jpg)
+
+![Theme picker](docs/screenshots/theme-menu.jpg)
+
+![Backgrounds](docs/screenshots/backgrounds.jpg)
+
+![Keybindings](docs/screenshots/keybindings.jpg)
+
+![btop](docs/screenshots/btop.jpg)
+
+![Theatre of Dreams](docs/screenshots/theatre-of-dreams.jpg)
+
+![Stretford End](docs/screenshots/stretford-end.jpg)
 
 Private Omarchy theme mixing Manchester United's **2026/27 home red** (`#DC1F26`) with the **away royal blue** (`#0845BA`). Wallpapers are real 4K photographs of Old Trafford and Manchester. Window borders are a home-red → away-blue gradient.
 
