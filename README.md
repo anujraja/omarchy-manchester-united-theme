@@ -1,6 +1,18 @@
 # Manchester United — Omarchy theme
 
-Private Omarchy theme mixing Manchester United's **2026/27 home red** (`#DC1F26`) with the **away royal blue** (`#0845BA`). Wallpapers are real 4K photographs of Old Trafford and Manchester.
+Live shots from this machine: empty desktop, then a new empty window on the 2026/27 home-red / away-blue palette.
+
+![Empty desktop — Old Trafford aerial](docs/screenshots/desktop.jpg)
+
+![Empty window on Old Trafford](docs/screenshots/empty-window.jpg)
+
+![Empty window — Theatre of Dreams](docs/screenshots/theatre-of-dreams.jpg)
+
+![Empty window — Stretford End](docs/screenshots/stretford-end.jpg)
+
+![Empty desktop — Salford Quays night](docs/screenshots/salford-quays.jpg)
+
+Private Omarchy theme mixing Manchester United's **2026/27 home red** (`#DC1F26`) with the **away royal blue** (`#0845BA`). Wallpapers are real 4K photographs of Old Trafford and Manchester. Window borders are a home-red → away-blue gradient.
 
 ## Install
 
@@ -23,8 +35,6 @@ cp branding/screensaver.txt ~/.config/omarchy/branding/screensaver.txt
 | Blue | `#0845BA` | 26/27 away royal |
 | Background | `#0B1220` | Night navy |
 | Foreground | `#E9EEF6` | White kit trim |
-
-Window borders use a home-red → away-blue gradient.
 
 ## Wallpapers
 
