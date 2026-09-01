@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.anujraja.manchester-united",
+  "name": "Manchester United",
+  "version": "1.0.0",
+  "author": "Anuj Raja",
+  "license": "MIT",
+  "description": "2026/27 home-red and away-royal Manchester United Omarchy theme, plus a UNITED bar badge and overlay.",
+  "kinds": [
+    "bar-widget",
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "overlay": "Overlay.qml"
+  },
+  "barWidget": {
+    "displayName": "UNITED",
+    "description": "Home-red / away-blue kit badge. Left click opens the overlay; right click cycles the wallpaper.",
+    "category": "Appearance",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}

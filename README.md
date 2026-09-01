@@ -1,8 +1,6 @@
 # Manchester United — Omarchy theme
 
-Live screenshots from this machine, including a new empty window and the usual Omarchy pages on the 2026/27 home-red / away-blue palette.
-
-## Desktop
+2026/27 **home red** (`#DC1F26`) mixed with **away royal blue** (`#0845BA`). Real 4K photographs of Old Trafford and Manchester, a UNITED bar badge, and a summonable overlay. Not an official club product.
 
 ![Empty desktop — Old Trafford aerial](docs/screenshots/desktop.jpg)
 
@@ -30,20 +28,36 @@ Live screenshots from this machine, including a new empty window and the usual O
 
 ![Stretford End](docs/screenshots/stretford-end.jpg)
 
-Private Omarchy theme mixing Manchester United's **2026/27 home red** (`#DC1F26`) with the **away royal blue** (`#0845BA`). Wallpapers are real 4K photographs of Old Trafford and Manchester. Window borders are a home-red → away-blue gradient.
-
 ## Install
 
+Theme (desktop colours, wallpapers, lock preview):
+
 ```bash
-omarchy theme install git@github.com:anujraja/omarchy-theme-manchester-united.git
-omarchy theme set "Manchester United"
+omarchy theme install https://github.com/anujraja/omarchy-manchester-united-theme.git
 ```
 
-Screensaver wordmark (optional):
+Plugin (UNITED bar badge + overlay), from the same repository:
+
+```bash
+omarchy plugin add https://github.com/anujraja/omarchy-manchester-united-theme.git --enable
+```
+
+The badge lands on the right of the bar. Left click opens the overlay; right click cycles the wallpaper; Escape or click dismisses the overlay.
+
+Optional screensaver wordmark:
 
 ```bash
 cp branding/screensaver.txt ~/.config/omarchy/branding/screensaver.txt
 ```
+
+## Remove
+
+```bash
+omarchy plugin remove io.github.anujraja.manchester-united
+omarchy theme remove manchester-united
+```
+
+The plugin only writes its own entry in `~/.config/omarchy/shell.json` (added by `omarchy plugin enable`). It does not overwrite other user configuration. No extra packages are required.
 
 ## Palette
 
@@ -54,9 +68,11 @@ cp branding/screensaver.txt ~/.config/omarchy/branding/screensaver.txt
 | Background | `#0B1220` | Night navy |
 | Foreground | `#E9EEF6` | White kit trim |
 
+Window borders use a home-red → away-blue gradient.
+
 ## Wallpapers
 
-All `3840×2160`:
+All `3840×2160`. These photographs remain under their original licenses; this repository does not relicense them.
 
 - Old Trafford aerial — Arne Müseler, Wikimedia Commons
 - Stretford End — Stacey MacNaught, Flickr / Wikimedia Commons
@@ -65,3 +81,7 @@ All `3840×2160`:
 - Sir Alex corner — Wikimedia Commons
 - Manchester canal — Geograph
 - Sir Alex Stand — Geograph
+
+## License
+
+MIT for the theme files, plugin QML, and documentation. Wallpaper files keep their upstream licenses as listed above.
