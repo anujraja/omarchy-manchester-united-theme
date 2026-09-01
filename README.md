@@ -6,8 +6,6 @@
 
 ![Empty window](docs/screenshots/empty-window.jpg)
 
-![Salford Quays night](docs/screenshots/salford-quays.jpg)
-
 ## Pages
 
 ![About](docs/screenshots/about.jpg)
